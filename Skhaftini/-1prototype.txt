@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>SKHAFTINI</title>
+<link rel="stylesheet" href="skhaftini.css" />
+</head>
+
+<body>
+<header>
+<nav>
+<img src="skaftini png-13.png" alt="logo" width="200px" height="135px" />
+<nav>
+<a href="logout.php">Logout</a>
+<a href="home.php">Home</a>
+<a href="restaurants.php">Restaurants</a>
+<form action="search.php" method="get">
+<input type="text" placeholder="search meal" name="search"/>
+<input type="submit" value="search" name="submit" />
+</form>
+</nav>
+</nav>
+</header>	
+<section id="restaurantsection">
+<h2>
+<p><?php echo "<img src='uploaded1/".$image." ' width='200px' height='135px'>";?></p>
+<form action="updateprofile.php" method="post" enctype="multipart/form-data" id="meal">
+<input type="hidden" value="'.$phone.'" name="phone" id="pass" /></li>
+<input type="submit" value="Update profile" name="submit" id="order"/>
+</form>
+Username: <?php echo $_SESSION['name']?> 
+<br>
+Phone number: <?php echo $_SESSION['id']?>
+<br>
+Email: <?php echo $email?>
+<br>
+Village: <?php echo $village?>
+<br>
+House number: <?php echo $houseno?>	
+<br>
+Credit card number: <?php echo $card?>
+<br>
+Outstanding charge to be paid: <?php echo $charge?>
+</h2>					
+</section>
+<aside id="restaurantaside">
+</aside>
+</body>
+</html>

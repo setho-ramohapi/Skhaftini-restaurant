@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Skhaftini </title>
+<link rel="stylesheet" href="registration.css" />
+
+</head>
+
+<body>
+<header>
+<img src="skaftini png-13.png" alt="logo" width="200px" height="135px" />
+<a href="index.php" >Already have an account?</a>
+</header>
+
+<section>
+<form action="registration.php" method="POST" enctype="multipart/form-data">
+<fieldset>
+<table>
+Are you a restaurant or a client?
+<tr><td><input type="radio" value="RESTAURANT" name="type" required />
+RESTAURANT
+<input type="radio" value="CLIENT" name="type" required />
+CLIENT</td></tr>
+<tr><td><label>Email</label></tr>
+<td><input type="email" name="email" required></td></tr>
+<tr><td><label>Name</label></tr>
+<td><input type="text" name="name" required></td></tr>
+<tr><td><label>Premise/House Number</label></tr>
+<td><input type="number" name="housenumber" required></td></tr>
+<tr><td><label>Postal Code</label></tr>
+<td><input type="number" name="postal_code" required></td></tr>
+<tr><td><label>Street</label></tr>
+<td><input type="text" name="street" required></td></tr>
+<tr><td><label>City</label></tr>
+<td><input type="text" name="city" required></td></tr>
+<tr><td><label>Village</label></tr>
+<td><input type="text" name="village" required></td></tr>
+<tr><td><label>District</label></tr>
+<td><input type="text" name="district"required></td></tr>
+<tr><td><label>Phone number</label></tr>
+<td><input type="tel" required name="phone"required></td></tr>
+<tr><td><label>New Password</label></tr>
+<td><input type="password" required name="pass1" required></td></tr>
+<tr><td><label>New Password</label></tr>
+<td><input type="password" required name="pass2" required></td></tr>
+<tr><td><label>Debit/Credit card</label></tr>
+<td><input type="number" required name="card" required></td></tr>
+<tr><td><label>Upload profile picture</label></tr>
+<tr><td><input type="file" required name="image" required></td></tr>
+<tr><td><input type="submit" value="SIGN UP" name="submit"/></td></tr>
+<tr><td><a href="index.php">Already have an account?</a></td></tr>
+</table>
+</fieldset>
+</form>
+
+</section>
+
+<footer>
+REPORT A PROBLEM
+
+TERMS & POLICIES
+
+HELP
+</footer>
+
+</body>
+</html>

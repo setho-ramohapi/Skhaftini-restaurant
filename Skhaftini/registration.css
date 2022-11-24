@@ -1,0 +1,73 @@
+@charset="UTF-8";
+
+/*---header part----*/
+
+body {
+	height:100%;
+	width:100%;
+	background-color:maroon;
+	background-image:url("skaftini png-13.png");
+	background-size: 50%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	font-family:Forte;
+
+}
+
+
+body header {
+	padding-top:0px;
+	position:fixed;
+	height: 100px;
+	width:100%;
+	background-color: gold;
+	border-radius: 0px 0px 50px 0px;
+	float:left;
+	padding-bottom:50px;
+}
+header img {
+	float:left;
+}
+header a {
+	padding-top:50px;
+	float:left;
+}
+
+/*---section part----*/
+
+
+section {
+	padding-top:150px;
+	height:100%;
+	width:100%;
+	background-color:transparent;
+	background-size:cover;
+	padding-bottom: 50px;
+	margin-bottom:0px;
+}
+
+
+a:visited {
+	color: black;
+}
+
+.link {
+	text-decoration:none;
+}
+
+.button {
+	width: 300px;
+	height:20px;
+	background-color:white;
+	border: 1px solid maroon;
+}
+
+form {
+	position:center;
+}
+
+footer {
+	height:120px;
+	width:100%;
+}

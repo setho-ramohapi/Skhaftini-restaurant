@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Skhaftini </title>
+<link rel="stylesheet" href="register.css" />
+
+</head>
+
+<body>
+<header>
+<nav>
+<h1>Skhaftini</h1>
+</nav>
+</header>
+
+<section>
+<form action="communication.php" method="POST">
+<fieldset>
+<ul>
+<li><label>ORDER ID</label>
+<input type="number" name="orderid" required></li>
+<li><label>PHONE NUMBER OF RESTAUARANT</label>
+<input type="tel" name="phone1" required></li>
+STATUS OF ORDER
+<li><input type="radio" value="CONFIRM" name="status" required />
+CONFIRM
+<input type="radio" value="CANCEL" name="status" required />
+CANCEL
+</li>
+<li><label>PHONE NUMBER OF CLIENT</label>
+<input type="tel" required name="phone"required></li>
+<li><label>REQUIREMENTS</label>
+<textarea name="requirements" rows="4" col="60" >
+</textarea>
+<li><input type="submit" value="submit" name="submit"/></li>
+<li><a href="index.html">Return to login page</a></li>
+</ul>
+</fieldset>
+</form>
+
+</section>
+
+<footer>
+
+</footer>
+
+</body>
+</html>
